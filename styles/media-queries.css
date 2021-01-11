@@ -1,0 +1,15 @@
+@media only screen and (max-width: 768px) {
+  .hero {
+    min-height: 95rem;
+  }
+
+  .header {
+    height: 40rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero {
+    min-height: 100rem;
+  }
+}
