@@ -78,7 +78,7 @@ NAVBAR
 HERO
 ************************/
 .hero {
-  min-height: 55rem;
+  min-height: 50rem;
 }
 
 .header {
@@ -110,9 +110,46 @@ ABOUT
 SERVICES
 ************************/
 .services {
-  min-height: 80vh;
+  min-height: 70vh;
   background-image: url("/img/services-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* 
+SERVICES
+************************/
+.testimonials {
+  min-height: 50vh;
+}
+
+.row-testimonials {
+  min-height: 50vh;
+  align-items: center;
+}
+
+.card-img-top {
+  width: 7rem;
+  align-self: center;
+}
+
+.card {
+  border: none;
+}
+
+/* 
+VOUCHER
+************************/
+.voucher {
+  min-height: 50vh;
+  background-image: url("/img/voucher-bg-25.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.row-voucher {
+  min-height: 50vh;
+  align-items: center;
 }

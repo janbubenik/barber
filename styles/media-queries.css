@@ -2,9 +2,11 @@
   .hero {
     min-height: 95rem;
   }
-
   .header {
     height: 40rem;
+  }
+  .voucher {
+    background-image: url("/img/voucher-bg-75.png");
   }
 }
 
